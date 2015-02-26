@@ -59,7 +59,7 @@ std::string hk_Common_getGameVersionString_hook() {
 	// If the world hasn't loaded yet, print the usual version number(for the title screen)
 	// else, return a blank string so the version watermark is absent in game.
 	if(level_inst == NULL) {
-		return "v0.9.0 alpha build 7";
+		return "v0.11.0 alpha build 1";
 	} else {
 		return " ";
 	}
